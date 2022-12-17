@@ -1,0 +1,11 @@
+[Unit]
+Description=Microlab Celery
+
+[Service]
+WorkingDirectory=/home/pi/solderless-microlab
+ExecStart=/home/pi/solderless-microlab/scripts/startCelery.sh
+Restart=on-failure
+RestartSec=1s
+
+[Install]
+WantedBy=multi-user.target
