@@ -2,6 +2,10 @@
 
 Tool used to create Microlab Raspberry Pi images.
 
+## DEPRECATED
+
+This tool is deprecated. Use [microlab-image](https://github.com/FourThievesVinegar/microlab-image) instead.
+
 ## Dependencies
 
 pi-gen runs on Debian-based operating systems. Currently it is only supported on
